@@ -4,8 +4,8 @@ import com.blackjack2000.domain.Deck;
 
 public class Deal {
 
-    private Deck.Card firstCard;
-    private Deck.Card secondCard;
+    private final Deck.Card firstCard;
+    private final Deck.Card secondCard;
 
     public Deal(Deck.Card firstCard, Deck.Card secondCard) {
 
