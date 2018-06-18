@@ -7,7 +7,7 @@ public class Deal {
     private Deck.Card firstCard;
     private Deck.Card secondCard;
 
-    public Deal(Deck.Card firtCard, Deck.Card secondCard) {
+    public Deal(Deck.Card firstCard, Deck.Card secondCard) {
 
         this.firstCard = firstCard;
         this.secondCard = secondCard;
